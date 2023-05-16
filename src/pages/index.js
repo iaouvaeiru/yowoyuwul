@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from 'gatsby'
 
 const pageStyles = {
   color: "#232129",
@@ -132,6 +133,8 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
       <nav>
+        <Link to="/">Home</Link>
+        <Link to="/our-story">Our Story</Link>
         1 2 3
       </nav>
       <p style={paragraphStyles}>
