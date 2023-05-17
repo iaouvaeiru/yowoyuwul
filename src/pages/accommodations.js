@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from "../components/Layout"
 
-const Attire = () => {
+const Accomodations = () => {
     return (
         <Layout>
             <div>
-            
+                hi how are u
             </div>
         </Layout>
     );
 }
 
-export default Attire;
+export default Accomodations;
