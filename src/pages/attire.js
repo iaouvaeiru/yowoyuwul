@@ -9,15 +9,23 @@ import yajOctane2 from "../images/yajoctane2.png"
 
 const attireArray = [boomMaestro, boomFennec, yajDominus, yajFennec, yajOctane, yajOctane2]
 
-const attireRenderer = (image) => { image.map()
-
+const attireRenderer = () => {
+    return attireArray.map(image => {
+        return(<img src={image} alt='' />)
+    })
 }
+
+// const attireRenderer = () => {
+//     return attireArray.map((image, index) => (
+//       <img key={index} src={image} alt="" />
+//     ));
+//   };
 
 const Attire = () => {
     return (
         <Layout>
             <div>
-                <img src={boomMaestro} alt='boom maestro' description='boom maestro'/>
+                {attireRenderer()}
             </div>
         </Layout>
     );
