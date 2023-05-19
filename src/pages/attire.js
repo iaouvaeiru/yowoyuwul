@@ -11,7 +11,11 @@ const attireArray = [boomMaestro, boomFennec, yajDominus, yajFennec, yajOctane, 
 
 const attireRenderer = () => {
     return attireArray.map(image => {
-        return(<img src={image} alt='' />)
+        return(
+            <div>
+                <img src={image} alt='' />
+            </div>
+        )
     })
 }
 
