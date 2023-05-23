@@ -1,9 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby'
+import ranksBanner from '../images/ranksbanner.png'
+
+const bannerStyle = {
+    maxWidth: "100%",
+    height: 'auto'
+}
 
 const Navbar = () => {
     return (
         <div className="navbar">
+            <div>
+                <img src={ranksBanner} alt='ranks banner' style={bannerStyle}/>
+            </div>
             <h1>Rough Buddy and Yajjii</h1>
             <h2>Felt Cute Might Whiff Later IDK</h2>
             <nav>
