@@ -7,8 +7,6 @@ const Navbar = () => {
   const linkStyle = {
     fontFamily: 'Montserrat, sans-serif',
     textDecoration: 'none',
-    color: 'rgba(64, 64, 64, 0.9)',
-    // letterSpacing: '1px',
     fontWeight: 'inherit',
     padding: '5px 10px',
     borderRadius: '4px',
