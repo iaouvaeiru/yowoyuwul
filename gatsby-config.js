@@ -6,5 +6,12 @@ module.exports = {
     title: `yowoyuwul`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    {
+    resolve: 'gatsby-plugin-react-css-modules',
+    options: {
+      // Configuration options for the plugin (if needed)
+      },
+    }
+],
 }
