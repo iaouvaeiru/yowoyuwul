@@ -8,19 +8,19 @@ import yajOctane2 from "../images/yajoctane2.png"
 const yajjiiPresetArray = [
     {
         image: yajDominus,
-        name: "yajDominus"
+        name: "yajjii Dominus"
     },
     {
         image: yajFennec,
-        name: "yajFennec"
+        name: "yajjii Fennec"
     },
     {
         image: yajOctane,
-        name: "yajOctane"
+        name: "yajjii Octane"
     },
     {
         image: yajOctane2,
-        name: "yajOctane2"
+        name: "yajjii Octane 2"
     }
 ]
 
