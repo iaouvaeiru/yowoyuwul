@@ -24,33 +24,22 @@ const yajjiiPresetArray = [
     }
 ]
 
-const yajjiiPresetGenerator = () => {
-    return (yajjiiPresetArray.map(presetObj => {
-        return (
-            <div>
-
-            </div>
-        )
-    }))
-}
-
 const roughBuddyPresetArray = []
 
-const roughBuddyPresetGenerator = () => {
-    return (roughBuddyPresetArray.map(presetObj => {
+const PresetGenerator = (array) => {
+    return (array.map(presetObj => {
         return (
-            <div>
-
-            </div>
+                <img src={presetObj.image}/>
         )
     }))
 }
+
 
 const MeetThePresets = () => {
     return (
         <Layout>
             <div>
-            
+                {PresetGenerator(yajjiiPresetArray)}{PresetGenerator(yajjiiPresetArray)}
             </div>
         </Layout>
     );
