@@ -29,7 +29,7 @@ const roughBuddyPresetArray = []
 const PresetGenerator = (array) => {
     return (array.map(presetObj => {
         return (
-                <img src={presetObj.image}/>
+                <img src={presetObj.image} alt={presetObj.name}/>
         )
     }))
 }
@@ -39,7 +39,8 @@ const MeetThePresets = () => {
     return (
         <Layout>
             <div>
-                {PresetGenerator(yajjiiPresetArray)}{PresetGenerator(yajjiiPresetArray)}
+                {PresetGenerator(yajjiiPresetArray)}
+                {PresetGenerator(yajjiiPresetArray)}
             </div>
         </Layout>
     );
