@@ -24,7 +24,7 @@ const yajjiiPresetArray = [
     }
 ]
 
-const roughBuddyPresetArray = []
+const roughBuddyPresetArray = [{}]
 
 const PresetGenerator = (array) => {
     return (array.map(presetObj => {
