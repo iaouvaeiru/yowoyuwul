@@ -5,7 +5,7 @@ const OurStory = () => {
     return (
         <Layout>
             <div>
-                hi
+                We're just normal men, just innocent men
             </div>
         </Layout>
     );
