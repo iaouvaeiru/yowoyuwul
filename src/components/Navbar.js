@@ -47,7 +47,7 @@ const Navbar = () => {
         <div>
           <img src={ranksBanner} alt="ranks banner" style={bannerStyle} />
         </div>
-        <h1>Rough Buddy and Yajjii</h1>
+        <h1>Rough Buddy & Yajjii</h1>
         <h2>Felt Cute Might Whiff Later IDK</h2>
       </div>
       <nav>
