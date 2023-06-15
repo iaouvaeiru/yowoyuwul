@@ -5,7 +5,10 @@ const Accomodations = () => {
     return (
         <Layout>
             <div>
-                hi how are u
+                <p>
+                    not sure what to put here yet maybe favorite maps IDK
+                    add the new brazil map 
+                </p>
             </div>
         </Layout>
     );

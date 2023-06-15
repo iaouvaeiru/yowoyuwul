@@ -85,7 +85,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <div>
-        STOP ROTATING F***ING NEAR POST
+        STOP ROTATING NEAR POST
       </div>
     </Layout>
   )
