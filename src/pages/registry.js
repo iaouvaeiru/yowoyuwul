@@ -5,7 +5,9 @@ const Registry = () => {
     return (
         <Layout>
             <div>
-                pls gib alpha boost :3
+                <p>
+                    pls gib alpha boost :3
+                </p>
             </div>
         </Layout>
     );
